@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2887e3;
+}
+.piano-container{
+    width: 100%;
+    border: 2px solid #fff;
+    display: flex;
+    position: absolute;
+    max-width: 844px;
+    max-height: 390px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 4em 1em 1em 1em ;
+    border-radius: 10px;
+    background: #24272e;
+}
+.white-key{
+    width: 100%;
+    height: 9em;
+    background-color: #fff;
+    border-radius: 0 0 0.3em 0.3em ;
+    border: 2px solid #24272e;
+    cursor: pointer;
+}
+.white-key:hover{
+    background-color: #e7e5e5;
+}
+.black-key{
+    width: 1.5em;
+    height: 4.5em;
+    border-radius: 0 0 0.3em 0.3em ;
+    position: absolute;
+    background-color: #000;
+}
+.black-key:hover{
+    background-color: #303030;
+}
+.black-key:nth-child(1){
+    left: 2.9em;
+}
+.black-key:nth-child(2){
+    left: 5.6em;
+}
+.black-key:nth-child(3){
+    left: 11em;
+}
+.black-key:nth-child(4){
+    left: 13.6em;
+}
+.black-key:nth-child(5){
+    left: 16.4em;
+}
+.black-key:nth-child(6){
+    left: 21.8em;
+}
+.black-key:nth-child(7){
+    left: 24.5em;
+}
+.black-key:nth-child(8){
+    left: 29.8em;
+}
+.black-key:nth-child(9){
+    left: 32.5em;
+}
+.black-key:nth-child(10){
+    left: 35.2em;
+    
+}
